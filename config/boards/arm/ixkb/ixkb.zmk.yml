@@ -1,0 +1,9 @@
+file_format: "1"
+id: ixkb
+name: IXKB
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://ixkb.com
