@@ -5,6 +5,9 @@
 
 if BOARD_IXKB
 
+config ZMK_KEYBOARD_NAME
+    default "IXKB"
+
 config BOARD
     default "ixkb"
 
