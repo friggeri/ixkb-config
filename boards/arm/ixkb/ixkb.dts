@@ -101,16 +101,20 @@
         output-ohms = <2000000>;
         full-ohms = <(2000000 + 806000)>;
     };
-/*
-    joystick0: thb {
-        compatible = "ck,thb";
+
+    joystick: joystick {
+        compatible = "zmk,input-analog-joystick";
         label = "JOYSTICK";
         io-channels = <&adc 7>, <&adc 6>;
         io-channel-names = "X-AXIS", "Y-AXIS";
         max-mv = <1650>;
         status = "okay";
+
+        joystick_input_listener {
+            compatible = "zmk,input-listener";
+            device = <&joystick>;
+        };
     };
-    */
 };
 
 &adc {
