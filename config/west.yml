@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/friggeri
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: feat/pointers-move-scroll
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: zmk-analog-joystick-driver
       remote: friggeri

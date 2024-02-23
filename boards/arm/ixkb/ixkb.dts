@@ -108,11 +108,6 @@
         io-channel-names = "X-AXIS", "Y-AXIS";
         max-mv = <1650>;
         status = "okay";
-
-        joystick_input_listener {
-            compatible = "zmk,input-listener";
-            device = <&joystick>;
-        };
     };
 };
 
