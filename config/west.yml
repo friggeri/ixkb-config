@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/petejohanson
     - name: friggeri
       url-base: https://github.com/friggeri
   projects:
