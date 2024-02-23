@@ -106,7 +106,8 @@
         label = "JOYSTICK";
         io-channels = <&adc 7>, <&adc 6>;
         io-channel-names = "X-AXIS", "Y-AXIS";
-        max-mv = <1650>;
+        min-mv = <300>;
+        max-mv = <3000>;
         status = "okay";
     };
 };
