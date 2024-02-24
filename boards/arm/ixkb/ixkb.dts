@@ -109,6 +109,11 @@
         min-mv = <300>;
         max-mv = <3000>;
         status = "okay";
+
+        input_listener: input_listener {
+            compatible = "zmk,joystick";
+            device = <&joystick>;
+        };
     };
 };
 
