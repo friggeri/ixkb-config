@@ -14,5 +14,8 @@ manifest:
     - name: zmk-analog-joystick-driver
       remote: friggeri
       revision: main
+    - name: zmk-joystick-listener
+      remote: friggeri
+      revision: main
   self:
     path: config
