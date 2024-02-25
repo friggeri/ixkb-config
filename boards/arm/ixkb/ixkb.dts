@@ -111,7 +111,7 @@
         status = "okay";
 
         input_listener: input_listener {
-            compatible = "zmk,joystick";
+            compatible = "zmk,joystick-listener";
             device = <&joystick>;
         };
     };
