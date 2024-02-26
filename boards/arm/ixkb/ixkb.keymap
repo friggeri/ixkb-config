@@ -68,7 +68,7 @@
 
         shortcuts {
             bindings = <
-                &trans          &trans          &trans          &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &sys_reset                  &trans      &trans      &trans
+                &out OUT_TOG    &trans          &trans          &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &sys_reset                  &trans      &trans      &trans
                                                                 &kp SPACE1          &kp SPACE2          &kp SPACE3          &kp SPACE4          &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans                      &trans      &trans      &trans
                                 &trans                          &trans              &trans              &trans              &trans              &trans              &kp CAPF            &kp CAPR            &trans              &trans              &trans              &kp C_BRI_UP        &trans                      &trans      &trans      &trans
                                                                 &trans              &trans              &trans              &trans              &trans                        &kp CHAR                      &trans              &trans              &trans              &kp C_BRI_DN        &trans                      &trans      &trans      &trans
