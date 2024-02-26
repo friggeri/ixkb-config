@@ -2,14 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
     - name: friggeri
       url-base: https://github.com/friggeri
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: friggeri
+      revision: feat/hid-joystick
       import: app/west.yml
     - name: zmk-analog-joystick-driver
       remote: friggeri

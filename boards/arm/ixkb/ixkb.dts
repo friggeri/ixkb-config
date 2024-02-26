@@ -108,6 +108,7 @@
         io-channel-names = "X-AXIS", "Y-AXIS";
         min-mv = <300>;
         max-mv = <3000>;
+        dead-zone = <10>;
         status = "okay";
 
         input_listener: input_listener {
